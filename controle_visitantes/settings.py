@@ -28,8 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
-
+# APP's padrôes
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,6 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+# APP's instaladas
+INSTALLED_APPS +=[
+    'widget_tweaks',
+]
+
+# APP's criadas
 INSTALLED_APPS +=[
     'usuarios',
     'porteiros',
