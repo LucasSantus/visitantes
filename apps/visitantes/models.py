@@ -4,7 +4,7 @@ class Visitante(models.Model):
 
     STATUS_VISITANTE = [
         ("AGUARDANDO", "Aguardando autorização"),
-        ("EM VISITA", "Em visita"),
+        ("EM_VISITA", "Em visita"),
         ("FINALIZADO", "Visita finalizada"),
 
     ]
