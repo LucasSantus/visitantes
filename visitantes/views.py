@@ -3,6 +3,8 @@ from django.shortcuts import render, redirect, get_object_or_404
 from visitantes.forms import VisitanteForm, AutorizaVisitanteForm
 from visitantes.models import Visitante
 from django.utils import timezone
+from django.http import HttpResponseNotAllowed
+
 
 def registrar_visitante(request):
 
@@ -68,11 +70,11 @@ def informacoes_visitante(request, id):
 
 def finalizar_visita(request, id):
     if request.method == "POST":
-        Visitante = get_object_or_404(
+        visitante = get_object_or_404(
             Visitante,id=id
         )
 
-        visitante.status = "FINALIZANDO"
+        visitante.status = "FINALIZADO"
         visitante.horario_saida = timezone.now()
 
         visitante.save()
@@ -82,3 +84,8 @@ def finalizar_visita(request, id):
         )
 
         return redirect("index")
+
+    else:
+        return HttpResponseNotAllowed(
+            ["POST"],"Método não permitido"
+        )
