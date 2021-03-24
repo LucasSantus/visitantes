@@ -1,6 +1,6 @@
 ## Controle de Visitantes
 
-
+![License](https://img.shields.io/github/license/LucasSantus/controle-visitantes?style=social)
 ![Languages](https://img.shields.io/github/languages/count/LucasSantus/controle-visitantes?style=social)
 ![GitHub repo size](https://img.shields.io/github/repo-size/LucasSantus/controle-visitantes?style=social)
 
