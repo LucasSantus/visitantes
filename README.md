@@ -65,6 +65,10 @@ $ pip install -r requirements.txt
 **Preparando o Projeto**
 
 ```
+$ python manage.py makemigrations cadastro
+
+$ python manage.py makemigrations administracao
+
 $ python manage.py migrate
 
 $ python manage.py createsuperuser
@@ -75,6 +79,8 @@ $ python manage.py createsuperuser
 ```
 $ python manage.py runserver
 ```
+
+**Acessando o Projeto**
 
 para visualizar o projeto: http://127.0.0.1:8000/
 
