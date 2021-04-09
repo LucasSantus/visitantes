@@ -18,7 +18,7 @@ python manage.py migrate                                        >>> para criar u
 
 python manage.py createsuperuser                                >>> para criar um super usuário novo
 
-python manage.ppy runserver                                     >>> para rodar o projeto
+python manage.py runserver                                     >>> para rodar o projeto
 
 
 
