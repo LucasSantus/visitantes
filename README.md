@@ -48,8 +48,6 @@ $ cd controle-visitantes
 
 **Preparando Ambiente Virtual**
 
-Com o terminal aberto, digite:
-
 ```
 $ sudo apt-get install python3-venv
 
@@ -82,11 +80,11 @@ $ python manage.py runserver
 
 **Acessando o Projeto**
 
-para visualizar o projeto: http://127.0.0.1:8000/
+Visualize o projeto no navegador: http://127.0.0.1:8000/
 
 **Acessando o Admin**
 
-Com o projeto rodando, adicione 'admin/' há URL:
+Adicione 'admin/' há URL:
 
 http://127.0.0.1:8000/admin/
 
