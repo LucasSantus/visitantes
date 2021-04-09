@@ -1,24 +1,24 @@
-sudo apt install virtualenv >>> instalar o ambiente virtual
+sudo apt install virtualenv                                     >>> instalar o ambiente virtual
 
-python3 -m venv nome_env >>> criar uma nova virtual env, myvenv é o nome.
+python3 -m venv env                                             >>> criar uma nova virtual env, myvenv é o nome.
 
-source nome_env/bin/activate >>> para ativar a myvenv no linux
+source env/bin/activate                                         >>> para ativar a myvenv no linux
 
-python -m pip install --upgrade pip >>> atualizar pip para ultima versão
+python -m pip install --upgrade pip                             >>> atualizar pip para ultima versão
 
-pip install -r requirements.txt >>> instalar o django na virtual venv
+pip install -r requirements.txt                                 >>> instalar o django na virtual venv
 
-django-admin startproject nome_projeto . >>> para criar um novo projeto em django,
+django-admin startproject nome_projeto .                        >>> para criar um novo projeto em django,
 
-django-admin startapp nome_app >>> para criar uma nova app no sistema
+django-admin startapp nome_app                                  >>> para criar uma nova app no sistema
 
-python manage.py makemigrations nome_app >>> prepara as atualizações da tabela para migração
+python manage.py makemigrations nome_app                        >>> prepara as atualizações da tabela para migração
 
-python manage.py migrate >>> para criar um banco de dados ou atualiza-lo
+python manage.py migrate                                        >>> para criar um banco de dados ou atualiza-lo
 
-python manage.py createsuperuser >>> para criar um super usuário novo
+python manage.py createsuperuser                                >>> para criar um super usuário novo
 
-python manage.ppy runserver >>> para rodar o projeto
+python manage.ppy runserver                                     >>> para rodar o projeto
 
 
 
