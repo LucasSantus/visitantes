@@ -14,13 +14,13 @@ A ideia é:
 
 _"Criar uma aplicação de Controle de Visitantes onde a mesma tenha um design simples e belo, com intuito de promover o aprendizado utilizando o framework Django"_
 
-Este repositório tem foco, na criação de uma aplicação de Controle de Visitantes de um prédio, interligado a um banco de dados provido pelo próprio Django Framework facilitando dessa forma a manipulação de dados.
+Este repositório tem foco, na criação de uma aplicação de Controle de Visitantes de um condomínio, interligado a um banco de dados provido pelo próprio Framework Django facilitando dessa forma a manipulação de seus dados.
 
 --------------------------------------------------------------------------------------
 
 ### Por Que?
 
-Este projeto faz parte do meu portfólio pessoal, então, ficarei feliz caso você fornecer algum feedback sobre o mesmo, código, estrutura, funcionalidade ou qualquer coisa que você possa relatar para melhora-lo.
+Este projeto faz parte do meu portfólio pessoal, então, ficarei feliz caso você forneça algum feedback, código, estrutura, funcionalidade ou qualquer funcionalidade/melhoria que você possa relatar para melhora-lo.
 
 Você pode usar este projeto como quiser, seja para estudar, fazer melhorias, você que manda!
 
@@ -36,7 +36,7 @@ Este é um projeto totalmente grátis!
 
 **Clonando o Repositório**
 
-Dentro da pasta onde o projeto irá ficar armazenado, abra o terminal PowerShell (opcional, qualquer terminal funcionará), {Shift + Botão Direito Mouse}
+Dentro da pasta onde o projeto irá ficar armazenado, abra o terminal.
 
 ```
 $ git init
@@ -86,7 +86,7 @@ para visualizar o projeto: http://127.0.0.1:8000/
 
 **Acessando o Admin**
 
-Com o projeto rodando, adicione o 'admin/' dps da URL:
+Com o projeto rodando, adicione 'admin/' há URL:
 
 http://127.0.0.1:8000/admin/
 
