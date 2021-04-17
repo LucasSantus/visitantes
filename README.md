@@ -1,9 +1,5 @@
 ## Controle de Visitantes
 
-![License](https://img.shields.io/github/license/LucasSantus/controle-visitantes)
-![Languages](https://img.shields.io/github/languages/count/LucasSantus/controle-visitantes)
-![GitHub repo size](https://img.shields.io/github/repo-size/LucasSantus/controle-visitantes)
-
 Se você quiser dar uma olhada em todas as telas do aplicativo, elas estão [aqui] (link).
 
 --------------------------------------------------------------------------------------
