@@ -35,43 +35,43 @@ Este é um projeto totalmente grátis!
 Dentro da pasta onde o projeto irá ficar armazenado, abra o terminal.
 
 ```
-$ git init
+git init
 
-$ git clone git@github.com:LucasSantus/controle-visitantes.git
+git clone git@github.com:LucasSantus/controle-visitantes.git
 
-$ cd controle-visitantes
+cd controle-visitantes
 ```
 
 **Preparando Ambiente Virtual**
 
 ```
-$ sudo apt-get install python3-venv
+sudo apt-get install python3-venv
 
-$ python3 -m venv env
+python3 -m venv env
 
-$ source env/bin/activate
+source env/bin/activate
 
-$ python -m pip install --upgrade pip
+python -m pip install --upgrade pip
 
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 **Preparando o Projeto**
 
 ```
-$ python manage.py makemigrations cadastro
+python manage.py makemigrations cadastro
 
-$ python manage.py makemigrations administracao
+python manage.py makemigrations administracao
 
-$ python manage.py migrate
+python manage.py migrate
 
-$ python manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 **Rodando o Projeto**
 
 ```
-$ python manage.py runserver
+python manage.py runserver
 ```
 
 **Acessando o Projeto**
