@@ -31,7 +31,6 @@ Este é um projeto totalmente grátis!
 > **Observação:** Foi utilizado a distro Linux Mint(versão 20.1), caso ocorra algum problema na instalação, pesquise por conta própria a resolução do mesmo!
 
 **Clonando o Repositório**
-
 Dentro da pasta onde o projeto irá ficar armazenado, abra o terminal.
 
 ```
@@ -42,11 +41,13 @@ git clone git@github.com:LucasSantus/controle-visitantes.git
 cd controle-visitantes
 ```
 
-**Preparando Ambiente Virtual**
-
+**Instalando Ambiente Virtual**
 ```
 sudo apt-get install python3-venv
+```
 
+**Preparando Ambiente Virtual**
+```
 python3 -m venv env
 
 source env/bin/activate
@@ -57,7 +58,6 @@ pip install -r requirements.txt
 ```
 
 **Preparando o Projeto**
-
 ```
 python manage.py makemigrations cadastro
 
@@ -69,7 +69,6 @@ python manage.py createsuperuser
 ```
 
 **Rodando o Projeto**
-
 ```
 python manage.py runserver
 ```
