@@ -1,7 +1,5 @@
 ## Controle de Visitantes
 
-Se você quiser dar uma olhada em todas as telas do aplicativo, elas estão [aqui] (link).
-
 --------------------------------------------------------------------------------------
 
 ### Sobre o Projeto
